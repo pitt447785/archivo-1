@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA PIZZERIA - CERTUS</title>
+
+<style>
+body{
+font-family: Arial, sans-serif;
+background-color: #000;
+margin: 0;
+padding: 0;
+}
+header{
+    background-color: chartreuse;
+    color: aqua;
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    margin: 0;
+}
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: azure;
+    font-size: 18px;
+}
+nav a .hover{
+    color: blanchedalmond;
+
+}
+.pizza-item{
+    background-color: coral;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px chartreuse;{0,0,0,0,0.1};
+    width: 250px;
+    text-aling:center;
+.pizza-item img{
+    width: 100%;
+    border-radius: 8px;
+
+}
+.pizza-item h3{
+    margin: 10px 0;
+}
+.pizza-item p{
+    color: aliceblue;
+}
+footer{
+background-color: #000;
+color: white;
+text-align: center;
+padding: 15px 0;
+margin: top 40px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+ 
+
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>la pizzeria de certus</h1>
+        <hr>
+    </header>
+    <nav>
+        <a href="#">incio</a>
+        <a href="#">menu</a>
+        <a href="#">contacto</a>
+    </nav>
+</header>
+
+section class="menu">
+ <div class="pizza-item">
+ <img src="../clase2/picture/D2KL4RRCRJA7RJC5TNULFZEKR4.jpg" alt="pizza margarita">
+ </div> 
+ <h3>PIZZA MARGARITA</h3>
+ <p>TOMATE, MOZZARELLA Y ALBAHACA</p>
+ <P><strong> PRECIO $10000.00</strong></P>
+</section>
+</body>
+</html>
+
+section class="menu">
+ <div class="pizza-item">
+ <img src="../clase2/picture/Ricca-Pizza-Americana-a-Domicilio.webp" alt="PIZZA AMERICANA">
+ </div> 
+ <h3>PIZZA MARGARITA</h3>
+ <p>TOMATE, MOZZARELLA Y ALBAHACA</p>
+ <P><strong> PRECIO $011212</strong></P>
+ </div>
+
+ section class="menu">
+ <div class="pizza-item">
+ <img src="../clase2/picture/d4sgoia-5ac19f65-0f56-480f-992b-6b771db0173c.jpg" alt="pizza margarita">
+ </div> 
+ <h3>PIZZA MXD</h3>
+ <p>TOMATE, MOZZARELLA Y ALBAHACA</p>
+ <P><strong> PRECIO $111212</strong></P>
+
+
+
+</section>
+ <footer>
+    <p>&copy; 2025 la pizzeria - certus | todos los derechos reservados</p>
+    </footer>
+
+    <body>
+        
