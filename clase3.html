@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANNER DESPLEGABLE</title>
+    <style>
+        /*el font family sirve para el tipo de letra,el margen, el áddin es para dar una separacin de cada texto y el background color,srive para dar un color determinado al documento*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0%;
+    background-color: white
+}
+/*CONTENEDOR PRINCIPAL*/
+.banner-container{
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+    background-color: black;
+}
+/*CONTENEDOR DE IMAGENES SE MOVERAN*/
+.banner-imagenes{
+    display: flex;
+    animation: scrollBanner 15s linear infinite;
+}
+/*ANIMACION DE DESPLAZAMIENTO HORIZONTAL*/
+@keyframes scrollBanner{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+/*ESTILOS PARA EL TEXTO DE BIENVENIDA*/
+.welcome-text{
+    text-align: center;
+    font-size: 36px;
+    margin-top:  20px;
+    color: #333
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+footer a{
+    color: red;
+}
+.video{
+    text-align: center;
+    margin: 40px;
+}
+.video iframe{
+    width: 80%;
+    height:  500px;
+
+}
+  </style>
+</head>
+<body>
+    <header>s
+        <h1 class="welcome-text">bienvendos a la pizzeria de la abuela</h1>
+    </header>
+        <!--baner de imagenes en movimiento-->
+        <div class="banner-container">
+        <div class="banner-imagnes">
+            <img src="../picture/IMG_3651_800x.webp" alt="Pizza 1">
+            <img src="../picture/images (2).jpg" alt="Pizza 2">
+        </div>
+    </div>
+
+    <br><br>
+    <section class="video">
+        <h2> Descubre como preparamos nuestra deliciosa Pizza</h2>
+        <iframe src="<iframe width="560" height="315" src="https://www.youtube.com/watch?v=L7iEQZBm6pc" ></iframe>" 
+        title="pizza cacera">
+        </iframe>
+    </section>
+    <footer>
+        <!--colocamos el copright-->
+        <p>&copy; 2025 - pizzeria de la abuela| todos los derechos reservados
+        <!--añadimos numero de contacto-->
+        <!--El campo target, me permite crear-->
+        <p><strong>contactanos: </strong > <a href="https://wa.link/o4jcvw89375" target="_blank">906089375</a></p>
+        </footer>
+
+    
+    
+    </body>
+    </html>
