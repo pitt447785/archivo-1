@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--agregamos una compatibilidad con otro navegador-->
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Redes Sociales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!--Define la seccion del encabezado-->
+    <header>
+        <div class="logo">
+            <!--Insertar la imagen del Logo-->
+            <img src="xdimagen.jpg" alt="Logo de Redes Sociales">
+        </div>
+        <!--El nav se le conoce como navegador-->
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Explorar</a></li>
+                <li><a href="#">Modificaciones</a></li>
+                <li><a href="#">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Define una seccion del contenido,util para agrupar elementos relacionados-->
+    <section class="content">
+        <div class="post">
+            <!--Un encabezadode un segundo nivel-->
+            <h2>Bienvenidos a Redes Sociales</h2>
+            <!--Un parrafo de texto-->
+            <p>Esta es una red social de ejemplo,donde puedes compartir tus ideas y pensamientos</p>
+            <button>Me gusta...!!</Gustas></button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Redes Sociales | Todos los Derechos Reservados.</p>
+    </footer>
+</body>
+</html>
