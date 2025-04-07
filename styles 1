@@ -1,0 +1,90 @@
+/*Estilos Generales*/
+body{
+    /*Establecer la fuente del texto*/
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*Fondo cris para el Cuerpo*/
+    background-color: #f0f0f0;
+}
+
+header{
+    /*Vamos a insertar un fondo verde para la Cabecera*/
+    background-color: #4caf50;
+    padding: 15px;
+    color: white;
+    /*Usamos un flexbox para organizar los elementos*/
+    display: flex;
+    /*Espacio entre el logo y la navegacon(na)*/
+    justify-content: space-between;
+    /*Alinea el logo y los enlaces verticalmente*/
+    align-items: center;
+}
+
+header .Logo img{
+    width: 50%; /*Tamaño del logo*/
+    height: auto;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*Muestra los elementos de la lista en fila*/
+    display: flex;
+}
+
+nav ul li{
+    /*Espaciado entre los elementos de la lista*/
+    margin-left: 20px;
+}
+
+nav ul li a{
+    /*Elimina el subrayado*/
+    text-decoration: none;
+    /*Color de los enlaces*/
+    color: white;
+    /*Hace los enlaces en negrita*/
+    font-weight: bold;
+}
+
+::content{
+    padding: 20px;
+}
+
+.post{
+    /*Vamos a agregar un fondo blanco para las publicaciones*/
+    background-color: white;
+    /*Vamos a agregar bordes redondeados*/
+    border-radius: 10px;
+    /*Vamos a agregar una sombra suave*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    /*Fondo Violeta para boton*/
+    background-color: #4caf50;
+    /*texto blanco*/
+    color: white;
+    border: none;
+    /*espaciado interno*/
+    padding: 10px 20px;
+    /*agregamos bordes redondeados*/
+    border-radius: 5px;
+    /*cambia el curso al pasar por el boton*/
+    cursor: pointer;
+}
+button:hover{
+    /*color mas oscuro al pasar el mause sobre el boton*/
+    background-color: #4caf50
+}
+
+footer{
+    /**/
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
