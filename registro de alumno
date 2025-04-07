@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Alumnos</title>
+    <!--Enlace al archivo CSS-->
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registro  de Alumnos</h1>
+        <form action="Registro.php" method="POST">
+            <label for="correo">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electronico</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="edad">Ingrese su Edad</label>
+            <input type="number" id="edad" name="edad" required>
+
+            <label for="curso">Ingrese un Curso:</label>
+            <select id="curso" name="curso">
+                <option value="programacion">Programacion</option>
+                <option value="java">Java</option>
+                <option value="pythom">Pythom</option>
+            </select>  
+            
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>
